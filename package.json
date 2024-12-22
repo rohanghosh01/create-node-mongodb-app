@@ -14,9 +14,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/rohanghosh01/create-my-app.git"
+    "url": "https://github.com/rohanghosh01/create-node-mongodb-app.git"
   },
-  "homepage": "https://github.com/your-username/create-my-app#readme",
+  "homepage": "https://github.com/rohanghosh01/create-node-mongodb-app#readme",
   "keywords": [
     "cli",
     "boilerplate",

@@ -1,9 +1,3 @@
-Here’s a **README.md** template for your boilerplate project that follows the structure commonly seen on npm package pages.
-
----
-
-### **README.md**
-
 ````markdown
 # create-node-mongodb-app
 
