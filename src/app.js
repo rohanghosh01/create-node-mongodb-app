@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const authRoutes = require("./routes/authRoutes");
 const { errorHandler } = require("./middlewares/errorMiddleware");
+const cors = require("cors");
 
 dotenv.config();
 
@@ -10,6 +11,9 @@ const app = express();
 
 // Middleware
 app.use(express.json());
+
+//cors middleware
+app.use(cors());
 
 // Routes
 app.use("/api/auth", authRoutes);

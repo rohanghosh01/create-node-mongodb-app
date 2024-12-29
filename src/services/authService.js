@@ -3,7 +3,7 @@ const bcrypt = require("bcrypt");
 
 exports.registerService = async (data) => {
   try {
-    const existingUser = await User.findOne({ email });
+    const existingUser = await User.findOne({ email: data.email });
     if (existingUser) {
       throw new Error("Email already exists");
     }
